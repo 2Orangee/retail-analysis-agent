@@ -1,0 +1,8 @@
+InvoiceNo,StockCode,Description,Quantity,InvoiceDate,UnitPrice,CustomerID,Country
+100001,A001,Notebook,2,2024-01-03 10:15:00,12.50,10001,United Kingdom
+100001,A002,Pen,3,2024-01-03 10:15:00,1.80,10001,United Kingdom
+100002,A003,Mug,1,2024-01-04 12:20:00,8.00,10002,France
+C100003,A001,Notebook,-1,2024-01-05 09:00:00,12.50,10001,United Kingdom
+100004,A004,Bag,2,2024-02-01 14:30:00,15.00,,Germany
+100005,A005,Sticker,5,2024-02-02 11:00:00,0.00,10003,United Kingdom
+100006,A003,Mug,2,2024-02-03 16:45:00,8.00,10004,France
