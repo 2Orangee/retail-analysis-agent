@@ -16,3 +16,11 @@
 python -m src.load_data --input data/sample.csv
 python -m src.load_data --input 'data/raw/Online Retail.xlsx' --limit 5000
 ```
+
+## 第二周命令
+
+```powershell
+python -m src.clean --input data/sample.csv
+python -m src.clean --input 'data/raw/Online Retail.xlsx' --limit 5000
+python -m src.clean --input data/sample.csv --output data/cleaned.csv
+```

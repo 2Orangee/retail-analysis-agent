@@ -17,3 +17,8 @@ outputs/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Tool/project-local metadata and temp files
+.workbuddy/
+_*.txt
+_*.py
