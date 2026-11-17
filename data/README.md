@@ -24,3 +24,19 @@ python -m src.clean --input data/sample.csv
 python -m src.clean --input 'data/raw/Online Retail.xlsx' --limit 5000
 python -m src.clean --input data/sample.csv --output data/cleaned.csv
 ```
+
+## 第三周命令
+
+分析命令会自动复用第二周清洗规则，不需要先手工生成 `cleaned.csv`。建议先读取前 5,000 行检查：
+
+```powershell
+python -m src.analyze --input "data/raw/Online Retail.xlsx" --limit 5000
+```
+
+确认成功后可去掉 `--limit` 运行全量数据：
+
+```powershell
+python -m src.analyze --input "data/raw/Online Retail.xlsx"
+```
+
+使用 `--limit` 得到的指标只代表文件前 N 行，不能作为全量分析结论。原始 Excel 位于被 `.gitignore` 排除的 `data/raw/`，不上传仓库。
